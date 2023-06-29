@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+.main_div {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .child_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .centered_heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .addItems {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .inputname,
+  .inputemail,
+  .inputmobileno {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5 px;
+    margin-bottom: 10 px;
+  }
+  
+  .inputsubmit {
+    color: white;
+    background-color: #1e90ff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .showItems {
+    margin-top: 20px;
+  }
+  
+  .eachItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #333333;
+    margin-bottom: 10px;
+    border-radius: 15 px;
+  }
+
+  .eachItem > * {
+    margin-right: 10px;
+  }
+  
+  .contact-btn button {
+    color: white;
+    background-color: #ff4500;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 12px;
+  }
+
+  .edit-contact {
+    margin-bottom: 10px;
+  }
+  
+  .edit-field {
+    margin-bottom: 5 px;
+  }
+  
+  .edit-field label {
+    display: flex;
+    width: 10px;
+  }
+  
+  .edit-field input {
+    width: 200px;
+  padding: 10px;
+  border: none;
+  border: 1px solid white; /* Add this line to apply white borders */
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: transparent; 
+  outline: none;
+  }
+  
+  .error-message {
+    color: rgb(252, 247, 247);
+    margin-top: 10px;
+  }
+  
+  button {
+    color: white;
+    background-color: #ff4500;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 12px;
+  }
